@@ -14,14 +14,14 @@ sympy.Limit(sympy.sin(x) / x, x, 0)
 sympy.limit(sympy.sin(x) / x, x, 0)
 # 1
 
-sym.Limit(1/x, x, sympy.oo)
+sympy.Limit(1/x, x, sympy.oo)
 # lim_x->infinity [a/x]
 
-sym.Limit(1./x, x, 0, dir='+')
+sympy.Limit(1./x, x, 0, dir='+')
 # limit from the positive side
 # one is a float
 
-sym.Limit(1./x, x, -sympy.oo, dir='-').doit()
+sympy.Limit(1./x, x, -sympy.oo, dir='-').doit()
 # limit to -infinity from the negative side
 
 '''END:
